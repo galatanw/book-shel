@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {useState,createContext,useEffect,useReducer} from 'react'
 import {GOOGLE_BOOK_Key} from './KEYS'
 import axios from 'axios';
@@ -12,7 +13,6 @@ export default function App() {
   const [books, dispatch] = useReducer(BooksHandling, false)
   let TIMER;
     useEffect(()=>{
-      console.log(process.env);
 // see if there is a user auth on localStorage
       const Auth=localStorage.getItem('Auth')?JSON.parse(localStorage.getItem('Auth')):null
 if(Auth&&!user){ 
