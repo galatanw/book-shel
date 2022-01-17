@@ -1,4 +1,0 @@
-const FIREBASE_key=1234
-const LOGGED_USER=1234 ;
-const GOOGLE_BOOK_Key=1234;
-export { GOOGLE_BOOK_Key, LOGGED_USER, FIREBASE_key };
